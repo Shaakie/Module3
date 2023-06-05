@@ -28,13 +28,7 @@ body {
 }
 
 #collapsable-nav {
-  margin-top: 13px;
-  margin-bottom: 5px;
   background-color: #b0b0b0;
-}
-
-#nav-list {
-  margin-top: 10px;
 }
 
 #nav-list a {
