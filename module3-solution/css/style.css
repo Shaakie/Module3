@@ -2,3 +2,32 @@
 body {
     font-size: 16px;
 }
+
+/* Header */
+#header-nav {
+    position: relative;
+    background-color: #b0b0b0;
+    border: 5px solid black;
+    border-radius: 0;
+    height: 120px;
+}
+
+.navbar-brand {
+    position: absolute;
+    margin-top: 0;
+    left: 35px;
+}
+
+.navbar-brand h1 {
+    color: black;
+    font-weight: bold;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
