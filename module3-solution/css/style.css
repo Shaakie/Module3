@@ -1,33 +1,78 @@
 /* Base Styles */
 body {
-    font-size: 16px;
+  font-size: 16px;
 }
 
 /* Header */
 #header-nav {
-    position: relative;
-    background-color: #b0b0b0;
-    border: 5px solid black;
-    border-radius: 0;
-    height: 120px;
+  position: relative;
+  background-color: #b0b0b0;
+  border: 5px solid black;
+  border-radius: 0;
 }
 
 .navbar-brand {
-    position: absolute;
-    margin-top: 0;
-    left: 35px;
+  position: absolute;
+  margin-top: 0;
+  left: 35px;
 }
 
 .navbar-brand h1 {
-    color: black;
-    font-weight: bold;
+  color: black;
+  font-weight: bold;
 }
 
 .navbar-brand a:hover,
 .navbar-brand a:focus {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+#collapsable-nav {
+  margin-top: 13px;
+  margin-bottom: 5px;
+  background-color: #b0b0b0;
 }
 
 #nav-list {
-    margin-top: 10px;
+  margin-top: 10px;
+}
+
+#nav-list a {
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+#nav-list a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar-header .navbar-toggle {
+  border: 3px solid black;
+  margin-top: 50px;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+#main-content {
+  padding: 10px;
+  margin: 10px 15px 0 15px;
+  background-color: #b0b0b0;
+}
+
+#section-text {
+  font-style: italic;
+  font-size: 1.2em;
+}
+
+@media (min-width: 768px) {
+    #header-nav {
+        height: 130px;
+    }
 }
